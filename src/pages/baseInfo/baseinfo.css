@@ -1,0 +1,8 @@
+.details {
+  display: flex;
+  align-items: flex-start;
+}
+
+.performs {
+  display: flex;
+}

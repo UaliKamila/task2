@@ -1,0 +1,20 @@
+
+.btn {
+  font-size: 14px;
+  line-height: 20px;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  padding: 10px 20px;
+}
+
+.submit {
+  color: rgba(46, 58, 89, 0.8);
+}
+
+.submit:hover {
+  background-color: #222B45;
+  border-radius: 3px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
