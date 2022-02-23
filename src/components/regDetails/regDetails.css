@@ -1,4 +1,4 @@
-.detailWrapper {
+.formWrapper {
   padding: 0 15px 20px 15px;
   background: #FFFFFF;
   border: 0.5px solid #C5CEE0;
@@ -9,12 +9,12 @@
   margin-top: 10px;
 }
 
-.detailLine {
+.formLine {
   background: #5D5FEF;
   padding-top: 1px;
 }
 
-.detailTitle {
+.formTitle {
   font-weight: 500;
   font-size: 13px;
   line-height: 16px;
@@ -22,7 +22,7 @@
   padding-top: 15px;
 }
 
-.detailInput {
+.formInput {
   background: #FFFFFF;
   border: 0.5px solid #C5CEE0;
   box-shadow: 0px 7px 64px rgba(25, 32, 56, 0.07);
@@ -31,10 +31,10 @@
   width: 100%;
   padding: 0 10px;
   font-weight: 300;
-font-size: 14px;
+  font-size: 14px;
 }
 
-input.detailInput::placeholder {
+input.formInput::placeholder {
   color: #222B45;
 }
 
@@ -44,17 +44,6 @@ input.detailInput::placeholder {
 }
 
 .folderBtn {
-  background: url(../img/folder.svg) no-repeat -1px -1px;
-  width: 20px;
-  height: 20px;
-  border: none;
-  cursor: pointer;
-  position: absolute;
-  bottom: 10px;
-  right: 10px;
-}
-
-.folderBtn2 {
   background: url(../img/folder.svg) no-repeat -1px -1px;
   width: 20px;
   height: 20px;

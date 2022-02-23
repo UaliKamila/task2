@@ -5,6 +5,7 @@
   position: sticky;
   top: 0;
   z-index: 999;
+  color: #FFFFFF;
 }
 
 .topbarWrapper {
@@ -12,7 +13,6 @@
   padding: 0px 6px 0px 153px;
   display: flex;
   justify-content: space-between;
-  
   color: #FFFFFF;
 }
 
@@ -93,6 +93,7 @@ li {
 
 .down {
   padding-left: 15px;
+  cursor: pointer;
 }
 
 .more {

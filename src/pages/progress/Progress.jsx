@@ -2,9 +2,9 @@
 export default function Progress() {
   return (
     <div>
-      <div className="detailWrapper">
+      <div className="formWrapper">
         <h4>Ход работы</h4>
-        <hr className="detailLine" />
+        <hr className="formLine" />
       </div>
     </div>
   );

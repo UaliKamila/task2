@@ -2,46 +2,45 @@ import './assignedDetails.css';
 
 export default function AssignedDetails() {
   return (
-    <div className="detailWrapper">
+    <div className="formWrapper">
       <h4>Реквизиты присвоенные отправителем</h4>
-      <hr className="detailLine" />
-      <form className="detailTitle">
+      <hr className="formLine" />
+      <form className="formTitle">
         <label>Корреспондент (внеш):</label>
         <div className="inputBtn">
-          <input className="detailInput" type="number" placeholder="0544652" />
+          <input className="formInput" type="number" placeholder="0544652" />
         </div>
       </form>
-      <form className="detailTitle">
+      <form className="formTitle">
         <label>Исх. номер и дата:</label>
         <div className="inputBtn">
           <input
-            className="detailInput"
+            className="formInput"
             type="text"
             placeholder="от 17.08.2021 01:58"
           />
         </div>
       </form>
-      <form className="detailTitle">
+      <form className="formTitle">
         <label>Автор:</label>
         <div className="inputBtn">
-          <input className="detailInput" type="text" placeholder="" />
+          <input className="formInput" type="text" placeholder="" />
           <button className="userBtn"></button>
         </div>
       </form>
-      <form className="detailTitle">
+      <form className="formTitle">
         <label>Исполнитель:</label>
         <div className="inputBtn">
-          <input className="detailInput" type="text" placeholder="" />
-          <button className="userBtn2"></button>
+          <input className="formInput" type="text" placeholder="" />
+          <button className="userBtn"></button>
         </div>
       </form>
-      <form className="detailTitle">
+      <form className="formTitle">
         <label>Язык документа:</label>
         <div className="inputBtn">
-          <input className="detailInput" type="text" placeholder="" />
+          <input className="formInput" type="text" placeholder="" />
         </div>
       </form>
     </div>
   );
- 
 }

@@ -1,21 +1,21 @@
 
 export default function OuterPerform() {
   return (
-    <div className="detailWrapper">
+    <div className="formWrapper">
       <h4>Внешние исполнители</h4>
-      <hr className="detailLine" />
-      <form className="detailTitle">
+      <hr className="formLine" />
+      <form className="formTitle">
         <label>Отв. исп. внеш.:</label>
         <div className="inputBtn">
-          <input className="detailInput" type="text" placeholder="Выберите" />
+          <input className="formInput" type="text" placeholder="Выберите" />
           <button className="userBtn"></button>
         </div>
       </form>
-      <form className="detailTitle">
+      <form className="formTitle">
         <label>Внеш. исполнители:</label>
         <div className="inputBtn">
-          <input className="detailInput" type="text" placeholder="Выберите" />
-          <button className="userBtn2"></button>
+          <input className="formInput" type="text" placeholder="Выберите" />
+          <button className="userBtn"></button>
         </div>
       </form>
     </div>

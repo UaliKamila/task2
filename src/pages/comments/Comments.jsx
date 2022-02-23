@@ -3,9 +3,9 @@ import './comments.css'
 export default function Comments() {
   return (
     <div>
-      <div className="detailWrapper">
+      <div className="formWrapper">
         <h4>Комментарии</h4>
-        <hr className="detailLine" />
+        <hr className="formLine" />
         <form className="comment">
           <label>Нет комментариев</label>
         </form>
